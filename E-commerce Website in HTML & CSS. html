@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widrh=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="1web.css">
+    <link href="http://fonts.googleapis.com/css2? family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="Images/mylogo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src="Images/img2.png" width="30px" height="30px">
+        <img src="Images/rmenu.png" class="menu-icon"
+        onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Give Your Workout <br> A New Style</h1>
+            <p>Success isn't always about greatness. It's about
+                consistency. Consistent <br> hard work gains success. Greatness will come.</p>
+                <a href="" class="btn">Explor Now &#8594;</a>
+        </div>
+
+        <div class="col-2">
+            <img src="Images/fon3-removebg-preview.png">
+        </div>
+    </div>
+</div>
+</div>
+
+<!---------Featured Catigories------------->
+<div class="catigories">
+    <div class="small-container">
+    <div class="row">
+        <div class="col-3">
+            <img src="Images/categoriey-1.jpg">
+        </div>
+        <div class="col-3">
+            <img src="Images/categoriey-2.jpg">
+        </div>
+        <div class="col-3">
+            <img src="Images/categoriey-3.jpg">
+        </div>
+    </div>
+</div>
+</div>
+
+<!---------Featured Products------------>
+<div class="small-container">
+    <h2 class="tittle">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="Images/product-1.jpg">
+            <h4>Prince12 T-Shirt</h4>
+            <div class="raiting">
+                <i class="fa fa-star"></i>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/product-2.jpg">
+            <h4>Prince12 T-Shirt</h4>
+            <div class="raiting">
+                <i class="fa fa-star"></i>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$75.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/product-3.jpg">
+            <h4>Prince12 T-Shirt</h4>
+            <div class="raiting">
+                <i class="fa fa-star"></i>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$60.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/product-4.jpg">
+            <h4>Prince12 T-Shirt</h4>
+            <div class="raiting">
+                <i class="fa fa-star"></i>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$75.00</p>
+        </div>
+    </div>
+    <h2 class="tittle">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="Images/prod-1.jpg">
+            <h4>Prince12 T-Shirt</h4>
+            <div class="raiting">
+                <i class="fa fa-star"></i>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/prod-2.jpg">
+            <h4>Prince12 T-Shirt</h4>
+            <div class="raiting">
+                <i class="fa fa-star"></i>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$75.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/prod-3.jpg">
+            <h4>Prince12 T-Shirt</h4>
+            <div class="raiting">
+                <i class="fa fa-star"></i>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$60.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/prod-4.jpg">
+            <h4>Prince12 T-Shirt</h4>
+            <div class="raiting">
+                <i class="fa fa-star"></i>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$75.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/prod-5.jpg">
+            <h4>Prince12 T-Shirt</h4>
+            <div class="raiting">
+                <i class="fa fa-star"></i>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/prod-6.jpg">
+            <h4>Prince12 T-Shirt</h4>
+            <div class="raiting">
+                <i class="fa fa-star"></i>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$75.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/prod-7.jpg">
+            <h4>Prince12 T-Shirt</h4>
+            <div class="raiting">
+                <i class="fa fa-star"></i>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$60.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/prod-8.jpg">
+            <h4>Prince12 T-Shirt</h4>
+            <div class="raiting">
+                <i class="fa fa-star"></i>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$75.00</p>
+        </div>
+    </div>
+</div>
+<!---------Offer------------>
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="Images/exclusive.png" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Exclusively Available on Prince12Store</p>
+                <h1>Smart Band 4</h1>
+                <small>The Mi Smart band 4  features a 39.9% larger(than Mi Band 3) AMOLED color full-touch
+                    display with adjustable brightness , so everything is clear as can be.</small>
+                    <a href="" class="btn">Buy Now &#8594</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------Testimonial-------->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laboriosam 
+                    fuga officiis porro, expedita saepe quam, ab amet cum, accusantium quis optio! Qui minima, 
+                    cumque ad obcaecati consectetur nesciunt iste.</p>
+                    <div class="raiting">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="Images/user.JPG">
+                    <h3>Alimardon Boqijonov</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laboriosam 
+                    fuga officiis porro, expedita saepe quam, ab amet cum, accusantium quis optio! Qui minima, 
+                    cumque ad obcaecati consectetur nesciunt iste.</p>
+                    <div class="raiting">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="Images/img-2.jpg">
+                    <h3>Begizod Vasijonov</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laboriosam 
+                    fuga officiis porro, expedita saepe quam, ab amet cum, accusantium quis optio! Qui minima, 
+                    cumque ad obcaecati consectetur nesciunt iste.</p>
+                    <div class="raiting">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="Images/img-3.jpg">
+                    <h3>Vasijonov</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------Brands---------->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="Images/logo-adidas.png">
+                </div>
+                <div class="col-5">
+                    <img src="Images/logo-fila.png">
+                </div>
+                <div class="col-5">
+                    <img src="Images/logo-gucci.png">
+                </div>
+                <div class="col-5">
+                    <img src="Images/logo-nike.png">
+                </div>
+                <div class="col-5">
+                    <img src="Images/logo-versace.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------Footer--------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Android and IOS Mobile Phone</p>
+                    <div class="app-logo">
+                        <img src="Images/playstore.png">
+                        <img src="Images/appstore.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Images/mylogo.png" alt="">
+                    <p>Our Purpose Is To Sustainably Make The Pleasure and Benefits of Sports Accessible To The Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affilate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Easy Tutorials</p>
+        </div>
+    </div>
+    
+<!-------Js for  toggle Menu----------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px"
+
+        function menutoggle(){
+            if( MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "0px"
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+</body>
+</html>
