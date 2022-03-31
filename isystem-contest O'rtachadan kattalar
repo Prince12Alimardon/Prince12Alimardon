@@ -1,0 +1,16 @@
+i = [int(h) for h in input().split()]
+m = []
+sum1 = 0
+for j in range(i[0], i[1] + 1):
+    tub = True
+    for h in range(2, j):
+        if j % h == 0:
+            tub = False
+            break
+    if tub:
+        sum1 += j
+        m.append(j)
+print("Average->", sum1/len(m))
+for j in m:
+    if j >= sum1 / len(m):
+        print(j)
